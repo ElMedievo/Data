@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ranks>
+	<rank name="Default" flair="$e" priority="1000" />
+	<rank name="Administrator" staff="true" flair="$6❖" priority="900">
+		<permission>minecraft.command.op</permission>
+  	</rank>
+</ranks>

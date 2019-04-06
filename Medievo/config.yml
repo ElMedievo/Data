@@ -1,0 +1,10 @@
+# Sample configuration
+# At the moment, you'll have to create your own table. I suggest you go for "player_data" unless you wanna tweak some code thingies
+sql:
+  host: localhost
+  port: '3306'
+  database: medievo
+  username: root
+  password: password
+  player_data_table: player_data
+  clans_data_table: clans_data
