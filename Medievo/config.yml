@@ -1,11 +1,12 @@
 # Sample configuration
 # For a complete automated database setup, have a look over at https://github.com/ElMedievo/Data/tree/master/Database
 # This database.php script helps you set everything up automatically, just run it as specified in the repository's README.md
+clans: false # Once set to true, clans will be enabled on the server.
 sql:
-  host: localhost
-  port: '3306'
-  database: medievo
-  username: root
-  password: password
-  player_data_table: player_data
-  clans_data_table: clans_data
+  host: "localhost"
+  port: 3306
+  database: "medievo"
+  username: "root"
+  password: "password"
+  player_data_table: "player_data"
+clans_data_table: "clans_data"
