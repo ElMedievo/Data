@@ -29,7 +29,10 @@
 			`uuid` VARCHAR(50) NOT NULL ,
 			`name` VARCHAR(16) NOT NULL ,
 			`gold` INT NOT NULL ,
-			`clan` VARCHAR(16) NOT NULL 
+			`clan` VARCHAR(16) NOT NULL ,
+			`kills` INT NOT NULL ,
+			`killed` INT NOT NULL ,
+			`deaths` INT NOT NULL ,
 			) 
 			ENGINE = InnoDB;
 			";
