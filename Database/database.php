@@ -32,7 +32,7 @@
 			`clan` VARCHAR(16) NOT NULL ,
 			`kills` INT NOT NULL ,
 			`killed` INT NOT NULL ,
-			`deaths` INT NOT NULL ,
+			`deaths` INT NOT NULL
 			) 
 			ENGINE = InnoDB;
 			";
