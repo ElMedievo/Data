@@ -15,3 +15,5 @@ unrestricted-advancements: false
 aliases:
   icanhasbukkit:
   - version $1-
+  restart:
+  - medievo-utils:restart $1-
