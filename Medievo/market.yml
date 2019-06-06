@@ -1,0 +1,13 @@
+interface:
+  title: Mercado Medieval
+  rows: 3
+  stock:
+    example:
+      material: DIAMOND_PICKAXE
+      damage: 0
+      amount: 1
+      name: 'Diamond Pickaxe'
+      lore: '&7Smelting I'
+      special: true
+      position: 0
+      price: 600
