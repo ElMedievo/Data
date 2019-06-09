@@ -10,5 +10,8 @@
 		<permission>minecraft.command.op</permission>
 		<permission>medievo.chat.admin</permission>
 		<permission>medievo.chat.color</permission>
+	</rank>
+	<rank name="VIP" staff="true" flair="$6*" priority="700">
+		<permission>medievo.chat.color</permission>
   	</rank>
 </ranks>
