@@ -19,5 +19,4 @@
 	<rank name="VIP" staff="false" flair="$6*" priority="500">
 		<permission>medievo.chat.color</permission>
   	</rank>
-	
 </ranks>
