@@ -5,5 +5,10 @@
 		<permission>minecraft.command.op</permission>
 		<permission>medievo.chat.admin</permission>
 		<permission>medievo.chat.color</permission>
+	</rank>
+	<rank name="Senior Moderator" staff="true" flair="$4❖" priority="800">
+		<permission>minecraft.command.op</permission>
+		<permission>medievo.chat.admin</permission>
+		<permission>medievo.chat.color</permission>
   	</rank>
 </ranks>
