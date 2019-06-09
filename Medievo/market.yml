@@ -2,7 +2,7 @@ interface:
   title: Mercado Medieval
   rows: 3
   stock:
-    example:
+    smelting_diamond_pickaxe:
       material: DIAMOND_PICKAXE
       damage: 0
       amount: 1
