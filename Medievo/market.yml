@@ -11,3 +11,12 @@ interface:
       special: true
       position: 0
       price: 600
+    elytra:
+      material: ELYTRA 
+      damage: 0
+      amount: 1
+      name: '&aElytra Medieval'
+      lore: '&8&oAdquiridas en el gran Mercado Medieval'
+      special: false
+      position: 1
+      price: 800
