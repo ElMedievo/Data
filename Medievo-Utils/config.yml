@@ -1,2 +1,5 @@
 General:
   restart: 60
+Scoreboard:
+  title: '&e&lEl Medievo'
+  server-web: '&bwww.elmedievo.org'
