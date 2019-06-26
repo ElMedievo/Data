@@ -16,6 +16,10 @@
 		<permission>medievo.chat.admin</permission>
 		<permission>medievo.chat.color</permission>
 	</rank>
+	<rank name="Helper" staff="true" flair="$9❖" priority="600">
+		<permission>medievo.chat.admin</permission>
+		<permission>medievo.chat.color</permission>
+	</rank>
 	<rank name="VIP" staff="false" flair="$6*" priority="500">
 		<permission>medievo.chat.color</permission>
   	</rank>
