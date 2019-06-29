@@ -1,5 +1,5 @@
 # Sample configuration
-# For a complete automated database setup, have a look over at https://github.com/ElMedievo/Data/tree/master/Database
+# For a complete automated database setup, have a look over at https://github.com/ElMedievo/Data/tree/master/
 # This database.php script helps you set everything up automatically, just run it as specified in the repository's README.md
 clans: false
 central_bank_uuid: ''
