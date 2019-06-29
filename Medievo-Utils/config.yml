@@ -1,9 +1,0 @@
-General:
-  enable-welcoming: true
-  welcome-msg: '&f&m----------&r &aWelcome to &6&lEl Medievo &f&m----------&r%l% &3Welcome,
-    you are now on the &eMedieval &3server! %l% Survive and create your own empire!
-    %l%&f&m---------&r &aMore at &9&nwwww.elmedievo.org&r &f&m---------'
-  restart: 60
-Scoreboard:
-  title: '&e&lEl Medievo'
-  server-web: '&bwww.elmedievo.org'
