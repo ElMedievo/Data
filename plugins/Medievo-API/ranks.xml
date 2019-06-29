@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ranks>
+	<rank name="Default" flair="$e" priority="1000"/>
 	<rank name="Administrator" staff="true" flair="$6❖" priority="900">
 		<permission>minecraft.command.*</permission>
 		<permission>medievo.chat.admin</permission>
@@ -32,5 +33,4 @@
   	<rank name="VIP" staff="false" flair="$6*" priority="300">
 		<permission>medievo.chat.color</permission>
   	</rank>
-  	<rank name="Default" flair="$e" priority="200"/>
 </ranks>
