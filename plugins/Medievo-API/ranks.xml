@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ranks>
 	<rank name="Default" flair="$e" priority="1000"/>
-	<rank name="Administrator" staff="true" flair="$6❖" priority="900">
-		<permission>minecraft.command.op</permission>
-		<permission>medievo.chat.admin</permission>
-		<permission>medievo.chat.color</permission>
-	</rank>
-  	<rank name="Developer" staff="true" flair="$5✵" priority="800">
+  	<rank name="Developer" staff="true" flair="$5✵" priority="900">
 		<permission>minecraft.command.*</permission>
 		<permission>medievo.chat.admin</permission>
 		<permission>medievo.chat.color></permission>
   	</rank>
+	<rank name="Administrator" staff="true" flair="$6❖" priority="800">
+		<permission>minecraft.command.op</permission>
+		<permission>medievo.chat.admin</permission>
+		<permission>medievo.chat.color</permission>
+	</rank>
   	<rank name="Senior-Moderator" staff="true" flair="$4❖" priority="700">
 		<permission>minecraft.command.op</permission>
 		<permission>medievo.chat.admin</permission>
