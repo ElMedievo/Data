@@ -6,7 +6,7 @@
 		<permission>medievo.chat.admin</permission>
 		<permission>medievo.chat.color</permission>
 	</rank>
-  	<rank name="Developer" staff="true" flair="$5❖" priority="800">
+  	<rank name="Developer" staff="true" flair="$5✵" priority="800">
 		<permission>minecraft.command.*</permission>
 		<permission>medievo.chat.admin</permission>
 		<permission>medievo.chat.color></permission>
@@ -16,7 +16,7 @@
 		<permission>medievo.chat.admin</permission>
 		<permission>medievo.chat.color</permission>
   	</rank>
-  	<rank name="Junior-Dev" staff="true" flair="$d❖" priority="600">
+  	<rank name="Junior-Dev" staff="true" flair="$d✵" priority="600">
 		<permission>minecraft.command.op</permission>
 		<permission>medievo.chat.admin</permission>
 		<permission>medievo.chat.color></permission>
