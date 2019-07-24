@@ -26,7 +26,7 @@ settings:
   item-dirty-ticks: 20
   timeout-time: 60
   restart-on-crash: true
-  restart-script: ./start.sh
+  restart-script: 
   player-shuffle: 0
   attribute:
     maxHealth:
