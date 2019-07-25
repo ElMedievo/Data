@@ -2,3 +2,10 @@
 # For a complete automated database setup, have a look over at https://github.com/ElMedievo/Data/tree/master/Database
 # This database.php script helps you set everything up automatically, just run it as specified in the repository's README.md
 clans: true
+spawn:
+  world: overworld
+  x: -80.5
+  y: -64.3
+  z: 205.5
+  yaw: 180
+  pitch: 0
