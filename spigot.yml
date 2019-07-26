@@ -12,6 +12,7 @@
 
 config-version: 12
 settings:
+  restart-script: 
   debug: false
   save-user-cache-on-stop-only: false
   filter-creative-items: true
@@ -26,7 +27,6 @@ settings:
   item-dirty-ticks: 20
   timeout-time: 60
   restart-on-crash: true
-  restart-script: 
   player-shuffle: 0
   attribute:
     maxHealth:
@@ -89,6 +89,9 @@ world-settings:
       misc: 32
       other: 64
     growth:
+      bamboo-modifier: 100
+      sweetberry-modifier: 100
+      kelp-modifier: 100
       beetroot-modifier: 100
       carrot-modifier: 100
       potato-modifier: 100
