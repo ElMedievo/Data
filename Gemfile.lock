@@ -1,0 +1,43 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    airbrussh (1.4.0)
+      sshkit (>= 1.6.1, != 1.7.0)
+    bcrypt_pbkdf (1.1.0-x64-mingw32)
+    capistrano (3.15.0)
+      airbrussh (>= 1.0.0)
+      i18n
+      rake (>= 10.0.0)
+      sshkit (>= 1.9.0)
+    capistrano-bundler (2.0.1)
+      capistrano (~> 3.1)
+    concurrent-ruby (1.1.8)
+    ed25519 (1.2.4)
+    i18n (1.8.9)
+      concurrent-ruby (~> 1.0)
+    net-scp (3.0.0)
+      net-ssh (>= 2.6.5, < 7.0.0)
+    net-ssh (6.1.0)
+    rake (13.0.3)
+    rvm1-capistrano3 (1.4.0)
+      capistrano (~> 3.0)
+      sshkit (>= 1.2)
+    sshkit (1.21.2)
+      net-scp (>= 1.1.2)
+      net-ssh (>= 2.8.0)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  bcrypt_pbkdf (>= 1.0, < 2.0)
+  capistrano (~> 3.14)
+  capistrano-bundler (~> 2.0)
+  ed25519 (>= 1.2, < 2.0)
+  rvm1-capistrano3
+
+RUBY VERSION
+   ruby 2.6.6p146
+
+BUNDLED WITH
+   2.1.4

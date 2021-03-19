@@ -1,0 +1,165 @@
+# Logfile created on 2021-03-19 12:18:08 -0300 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-03-19 12:18:08 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [be38dd5e] Running /usr/bin/env mkdir -p /home/deploy/elmedievo/rvm1scripts/ as deploy@deploy.elmedievo.org
+ DEBUG [be38dd5e] Command: /usr/bin/env mkdir -p /home/deploy/elmedievo/rvm1scripts/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-03-19 12:21:14 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [17b05207] Running /usr/bin/env mkdir -p /home/deploy/elmedievo/rvm1scripts/ as deploy@209.145.63.215
+ DEBUG [17b05207] Command: /usr/bin/env mkdir -p /home/deploy/elmedievo/rvm1scripts/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-03-19 12:24:55 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [65cf210a] Running /usr/bin/env mkdir -p /home/deploy/elmedievo/rvm1scripts/ as deploy@209.145.63.215
+ DEBUG [65cf210a] Command: /usr/bin/env mkdir -p /home/deploy/elmedievo/rvm1scripts/
+  INFO [65cf210a] Finished in 2.125 seconds with exit status 0 (successful).
+ DEBUG Uploading C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [d5e2d1b5] Running /usr/bin/env chmod +x /home/deploy/elmedievo/rvm1scripts/rvm-auto.sh as deploy@209.145.63.215
+ DEBUG [d5e2d1b5] Command: /usr/bin/env chmod +x /home/deploy/elmedievo/rvm1scripts/rvm-auto.sh
+  INFO [d5e2d1b5] Finished in 0.576 seconds with exit status 0 (successful).
+  INFO [88b742e9] Running /usr/bin/env mkdir -p /tmp as deploy@209.145.63.215
+ DEBUG [88b742e9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [88b742e9] Finished in 0.581 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-f125ca907f53ad05e8f9.sh 0.0%
+  INFO Uploading /tmp/git-ssh-f125ca907f53ad05e8f9.sh 100.0%
+  INFO [ba883fc3] Running /usr/bin/env chmod 700 /tmp/git-ssh-f125ca907f53ad05e8f9.sh as deploy@209.145.63.215
+ DEBUG [ba883fc3] Command: /usr/bin/env chmod 700 /tmp/git-ssh-f125ca907f53ad05e8f9.sh
+  INFO [ba883fc3] Finished in 0.561 seconds with exit status 0 (successful).
+  INFO [920d4505] Running /usr/bin/env git ls-remote git@github.com:ElMedievo/Data.git HEAD as deploy@209.145.63.215
+ DEBUG [920d4505] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f125ca907f53ad05e8f9.sh" ; /usr/bin/env git ls-remote git@github.com:ElMedievo/Data.git HEAD )
+ DEBUG [920d4505] 	/usr/bin/env: ‘git’: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-03-19 12:27:00 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [64fd905b] Running /usr/bin/env mkdir -p /home/deploy/elmedievo/rvm1scripts/ as deploy@209.145.63.215
+ DEBUG [64fd905b] Command: /usr/bin/env mkdir -p /home/deploy/elmedievo/rvm1scripts/
+  INFO [64fd905b] Finished in 2.348 seconds with exit status 0 (successful).
+ DEBUG Uploading C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [f22f3e18] Running /usr/bin/env chmod +x /home/deploy/elmedievo/rvm1scripts/rvm-auto.sh as deploy@209.145.63.215
+ DEBUG [f22f3e18] Command: /usr/bin/env chmod +x /home/deploy/elmedievo/rvm1scripts/rvm-auto.sh
+  INFO [f22f3e18] Finished in 0.581 seconds with exit status 0 (successful).
+  INFO [afff43a4] Running /usr/bin/env mkdir -p /tmp as deploy@209.145.63.215
+ DEBUG [afff43a4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [afff43a4] Finished in 0.594 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-96d7693032ba288091c0.sh 0.0%
+  INFO Uploading /tmp/git-ssh-96d7693032ba288091c0.sh 100.0%
+  INFO [949dd54c] Running /usr/bin/env chmod 700 /tmp/git-ssh-96d7693032ba288091c0.sh as deploy@209.145.63.215
+ DEBUG [949dd54c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-96d7693032ba288091c0.sh
+  INFO [949dd54c] Finished in 0.568 seconds with exit status 0 (successful).
+  INFO [367aefa6] Running /usr/bin/env git ls-remote git@github.com:ElMedievo/Data.git HEAD as deploy@209.145.63.215
+ DEBUG [367aefa6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-96d7693032ba288091c0.sh" ; /usr/bin/env git ls-remote git@github.com:ElMedievo/Data.git HEAD )
+ DEBUG [367aefa6] 	Failed to add the host to the list of known hosts (/home/deploy/.ssh/known_hosts).
+ DEBUG [367aefa6] 	dd93e42b8350b111f6bbc8a8e8da14b02714732a	HEAD
+  INFO [367aefa6] Finished in 1.332 seconds with exit status 0 (successful).
+  INFO [cb2f2b4e] Running /usr/bin/env mkdir -p /home/deploy/elmedievo/shared /home/deploy/elmedievo/releases as deploy@209.145.63.215
+ DEBUG [cb2f2b4e] Command: /usr/bin/env mkdir -p /home/deploy/elmedievo/shared /home/deploy/elmedievo/releases
+  INFO [cb2f2b4e] Finished in 0.532 seconds with exit status 0 (successful).
+  INFO [0f47af8e] Running /usr/bin/env mkdir -p /home/deploy/elmedievo/shared/.bundle as deploy@209.145.63.215
+ DEBUG [0f47af8e] Command: /usr/bin/env mkdir -p /home/deploy/elmedievo/shared/.bundle
+  INFO [0f47af8e] Finished in 0.587 seconds with exit status 0 (successful).
+ DEBUG [498639f3] Running [ -f /home/deploy/elmedievo/current/REVISION ] as deploy@209.145.63.215
+ DEBUG [498639f3] Command: [ -f /home/deploy/elmedievo/current/REVISION ]
+ DEBUG [498639f3] Finished in 0.577 seconds with exit status 1 (failed).
+ DEBUG [ad7658f7] Running [ -f /home/deploy/elmedievo/repo/HEAD ] as deploy@209.145.63.215
+ DEBUG [ad7658f7] Command: [ -f /home/deploy/elmedievo/repo/HEAD ]
+ DEBUG [ad7658f7] Finished in 0.551 seconds with exit status 1 (failed).
+ DEBUG [da45995d] Running if test ! -d /home/deploy/elmedievo; then echo "Directory does not exist '/home/deploy/elmedievo'" 1>&2; false; fi as deploy@209.145.63.215
+ DEBUG [da45995d] Command: if test ! -d /home/deploy/elmedievo; then echo "Directory does not exist '/home/deploy/elmedievo'" 1>&2; false; fi
+ DEBUG [da45995d] Finished in 0.554 seconds with exit status 0 (successful).
+  INFO [cbf6d177] Running /usr/bin/env git clone --mirror git@github.com:ElMedievo/Data.git /home/deploy/elmedievo/repo as deploy@209.145.63.215
+ DEBUG [cbf6d177] Command: cd /home/deploy/elmedievo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-96d7693032ba288091c0.sh" ; /usr/bin/env git clone --mirror git@github.com:ElMedievo/Data.git /home/deploy/elmedievo/repo )
+ DEBUG [cbf6d177] 	Cloning into bare repository '/home/deploy/elmedievo/repo'...
+ DEBUG [cbf6d177] 	Failed to add the host to the list of known hosts (/home/deploy/.ssh/known_hosts).
+ DEBUG [cbf6d177] 	remote: Enumerating objects: 363, done.[K
+ DEBUG [cbf6d177] 	Receiving objects:   0% (1/363)   
+ DEBUG [cbf6d177] 	Receiving objects:   1% (4/363)   
+ DEBUG [cbf6d177] 	Receiving objects:   2% (8/363)   
+ DEBUG [cbf6d177] 	Receiving objects:   3% (11/363)   
+ DEBUG [cbf6d177] 	Receiving objects:   4% (15/363)   
+ DEBUG [cbf6d177] 	Receiving objects:   5% (19/363)   
+ DEBUG [cbf6d177] 	Receiving objects:   6% (22/363)   
+ DEBUG [cbf6d177] 	Receiving objects:   7% (26/363)   
+ DEBUG [cbf6d177] 	Receiving objects:   8% (30/363)   
+ DEBUG [cbf6d177] 	Receiving objects:   9% (33/363)   Receiving objects:  10% (37/363)   Receiving objects:  11% (40/363)   Receiving objects:  12% (44/363)   Receiving objects:  13% (48/363)   Receiving objects:  14% (51/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  15% (55/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  16% (59/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  17% (62/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  18% (66/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  19% (69/363)   Receiving objects:  20% (73/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  21% (77/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  22% (80/363)   Receiving objects:  23% (84/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  24% (88/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  25% (91/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  26% (95/363)   Receiving objects:  27% (99/363)   Receiving objects:  28% (102/363)   Receiving objects:  29% (106/363)   Receiving objects:  30% (109/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  31% (113/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  32% (117/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  33% (120/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  34% (124/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  35% (128/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  36% (131/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  37% (135/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  38% (138/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  39% (142/363)   Receiving objects:  40% (146/363)   Receiving objects:  41% (149/363)   Receiving objects:  42% (153/363)   Receiving objects:  43% (157/363)   Receiving objects:  44% (160/363)   Receiving objects:  45% (164/363)   Receiving objects:  46% (167/363)   Receiving objects:  47% (171/363)   Receiving objects:  48% (175/363)   Receiving objects:  49% (178/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  50% (182/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  51% (186/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  52% (189/363)   Receiving objects:  53% (193/363)   Receiving objects:  54% (197/363)   Receiving objects:  55% (200/363)   Receiving objects:  56% (204/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  57% (207/363)   Receiving objects:  58% (211/363)   Receiving objects:  59% (215/363)   Receiving objects:  60% (218/363)   Receiving objects:  61% (222/363)   Receiving objects:  62% (226/363)   Receiving objects:  63% (229/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  64% (233/363)   Receiving objects:  65% (236/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  66% (240/363)   
+ DEBUG [cbf6d177] 	Receiving objects:  66% (240/363), 1.74 MiB | 1.71 MiB/s   
+ DEBUG [cbf6d177] 	Receiving objects:  66% (241/363), 2.23 MiB | 1.07 MiB/s   
+ DEBUG [cbf6d177] 	Receiving objects:  66% (241/363), 3.36 MiB | 1.08 MiB/s   
+ DEBUG [cbf6d177] 	Receiving objects:  67% (244/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  68% (247/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  69% (251/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  70% (255/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  71% (258/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  72% (262/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  73% (265/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  74% (269/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  75% (273/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  76% (276/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  77% (280/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  78% (284/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  79% (287/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  80% (291/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  81% (295/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  82% (298/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  83% (302/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  84% (305/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  85% (309/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  86% (313/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  87% (316/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  88% (320/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  89% (324/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  90% (327/363), 3.36 MiB | 1.08 MiB/s   
+ DEBUG [cbf6d177] 	remote: Total 363 (delta 0), reused 0 (delta 0), pack-reused 363[K
+ DEBUG [cbf6d177] 	Receiving objects:  91% (331/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  92% (334/363), 3.36 MiB | 1.08 MiB/s   
+ DEBUG [cbf6d177] 	Receiving objects:  93% (338/363), 3.36 MiB | 1.08 MiB/s   
+ DEBUG [cbf6d177] 	Receiving objects:  94% (342/363), 3.36 MiB | 1.08 MiB/s   
+ DEBUG [cbf6d177] 	Receiving objects:  95% (345/363), 3.36 MiB | 1.08 MiB/s   
+ DEBUG [cbf6d177] 	Receiving objects:  96% (349/363), 3.36 MiB | 1.08 MiB/s   
+ DEBUG [cbf6d177] 	Receiving objects:  97% (353/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  98% (356/363), 3.36 MiB | 1.08 MiB/s   Receiving objects:  99% (360/363), 3.36 MiB | 1.08 MiB/s   Receiving objects: 100% (363/363), 3.36 MiB | 1.08 MiB/s   
+ DEBUG [cbf6d177] 	Receiving objects: 100% (363/363), 4.13 MiB | 1.17 MiB/s, done.
+ DEBUG [cbf6d177] 	Resolving deltas:   0% (0/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:   1% (2/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:   5% (9/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  17% (30/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  20% (35/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  30% (52/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  31% (54/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  33% (58/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  36% (63/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  72% (126/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  73% (128/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  76% (132/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  78% (135/173)   Resolving deltas:  81% (141/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  85% (148/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  91% (158/173)   
+ DEBUG [cbf6d177] 	Resolving deltas:  95% (166/173)   
+ DEBUG [cbf6d177] 	Resolving deltas: 100% (173/173)   
+ DEBUG [cbf6d177] 	Resolving deltas: 100% (173/173), done.
+  INFO [cbf6d177] Finished in 4.929 seconds with exit status 0 (successful).
+ DEBUG [4f9db2eb] Running if test ! -d /home/deploy/elmedievo/repo; then echo "Directory does not exist '/home/deploy/elmedievo/repo'" 1>&2; false; fi as deploy@209.145.63.215
+ DEBUG [4f9db2eb] Command: if test ! -d /home/deploy/elmedievo/repo; then echo "Directory does not exist '/home/deploy/elmedievo/repo'" 1>&2; false; fi
+ DEBUG [4f9db2eb] Finished in 0.535 seconds with exit status 0 (successful).
+  INFO [e20727c6] Running /usr/bin/env git remote set-url origin git@github.com:ElMedievo/Data.git as deploy@209.145.63.215
+ DEBUG [e20727c6] Command: cd /home/deploy/elmedievo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-96d7693032ba288091c0.sh" ; /usr/bin/env git remote set-url origin git@github.com:ElMedievo/Data.git )
+  INFO [e20727c6] Finished in 0.567 seconds with exit status 0 (successful).
+  INFO [7392555b] Running /usr/bin/env git remote update --prune as deploy@209.145.63.215
+ DEBUG [7392555b] Command: cd /home/deploy/elmedievo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-96d7693032ba288091c0.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7392555b] 	Fetching origin
+ DEBUG [7392555b] 	Failed to add the host to the list of known hosts (/home/deploy/.ssh/known_hosts).
+  INFO [7392555b] Finished in 1.288 seconds with exit status 0 (successful).
+ DEBUG [02efeeed] Running if test ! -d /home/deploy/elmedievo/repo; then echo "Directory does not exist '/home/deploy/elmedievo/repo'" 1>&2; false; fi as deploy@209.145.63.215
+ DEBUG [02efeeed] Command: if test ! -d /home/deploy/elmedievo/repo; then echo "Directory does not exist '/home/deploy/elmedievo/repo'" 1>&2; false; fi
+ DEBUG [02efeeed] Finished in 0.832 seconds with exit status 0 (successful).
+  INFO [9db73ee2] Running /usr/bin/env mkdir -p /home/deploy/elmedievo/releases/20210319152710 as deploy@209.145.63.215
+ DEBUG [9db73ee2] Command: cd /home/deploy/elmedievo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-96d7693032ba288091c0.sh" ; /usr/bin/env mkdir -p /home/deploy/elmedievo/releases/20210319152710 )
+  INFO [9db73ee2] Finished in 0.561 seconds with exit status 0 (successful).
+  INFO [2c32f718] Running /usr/bin/env git archive production | /usr/bin/env tar -x -f - -C /home/deploy/elmedievo/releases/20210319152710 as deploy@209.145.63.215
+ DEBUG [2c32f718] Command: cd /home/deploy/elmedievo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-96d7693032ba288091c0.sh" ; /usr/bin/env git archive production | /usr/bin/env tar -x -f - -C /home/deploy/elmedievo/releases/20210319152710 )
+ DEBUG [2c32f718] 	fatal: Not a valid object name
+ DEBUG [2c32f718] 	tar: This does not look like a tar archive
+tar: Exiting with failure status due to previous errors

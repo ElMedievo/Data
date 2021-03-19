@@ -1,0 +1,24 @@
+# Mac OSX generated files
+.DS_Store
+
+# Eclipse generated files
+.classpath
+.project
+.settings
+
+# RubyMine
+.idea
+
+# Vim generated files
+*~
+*.swp
+
+# Configuration secrets
+config/config.yml
+config/winners.txt
+
+# SQLite database file
+bot.db
+
+# Capistrano
+log/capistrano.log
