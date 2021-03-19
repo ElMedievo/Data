@@ -8,7 +8,7 @@ set :repo_url, "git@github.com:ElMedievo/Data.git"
 set :branch, "master"
 set :user, "deploy"
 set :stages, %w(production)
-set :deploy_to, "/home/deploy/elmedievo"
+set :deploy_to, "/home/deploy/data"
 set :linked_dirs, %w(.bundle)
 set :pty, true
 set :rvm1_ruby_version, "2.6.6"
