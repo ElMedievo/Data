@@ -3,7 +3,6 @@ GEM
   specs:
     airbrussh (1.4.0)
       sshkit (>= 1.6.1, != 1.7.0)
-    bcrypt_pbkdf (1.1.0)
     bcrypt_pbkdf (1.1.0-x64-mingw32)
     capistrano (3.16.0)
       airbrussh (>= 1.0.0)
@@ -29,11 +28,10 @@ GEM
 
 PLATFORMS
   x64-mingw32
-  x86_64-linux
 
 DEPENDENCIES
   bcrypt_pbkdf (>= 1.0, < 2.0)
-  capistrano (~> 3.14)
+  capistrano (~> 3.16)
   capistrano-bundler (~> 2.0)
   ed25519 (>= 1.2, < 2.0)
   rvm1-capistrano3

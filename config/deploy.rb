@@ -1,4 +1,4 @@
-lock "~> 3.15.0"
+lock "~> 3.16.0"
 
 require 'capistrano/bundler'
 require 'rvm1/capistrano3'
