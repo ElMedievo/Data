@@ -12,7 +12,7 @@ set :user, 'deploy'
 set :stages, %w(production)
 set :deploy_to, '/home/deploy/Data'
 set :linked_files, %w(.console_history banned-ips.json banned-players.json ops.json version_history.json usercache.json whitelist.json)
-set :linked_dirs, %w(.bundle world world_nether world_the_end plugins logs config cache libraries)
+set :linked_dirs, %w(.bundle .fabric world mods logs config defaultconfigs cache libraries)
 set :pty, true
 set :rvm1_ruby_version, '2.7.3'
 
