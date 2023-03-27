@@ -1,6 +1,6 @@
 settings:
     update-folder: update
-    spawn-radius: 16
+    spawn-radius: 0
     permissions-file: permissions.yml
 database:
     password: walrus
